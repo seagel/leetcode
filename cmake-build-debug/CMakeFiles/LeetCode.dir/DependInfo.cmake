@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/seagel/Desktop/Projects/leetcode/SortedArrayFrequencyCount.cpp" "/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o"
   "/Users/seagel/Desktop/Projects/leetcode/TuplesTreeRepresentation.cpp" "/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o"
+  "/Users/seagel/Desktop/Projects/leetcode/kthElementBST.cpp" "/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles/LeetCode.dir/kthElementBST.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

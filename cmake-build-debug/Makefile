@@ -177,6 +177,30 @@ TuplesTreeRepresentation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.s
 .PHONY : TuplesTreeRepresentation.cpp.s
 
+kthElementBST.o: kthElementBST.cpp.o
+.PHONY : kthElementBST.o
+
+# target to build an object file
+kthElementBST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/kthElementBST.cpp.o
+.PHONY : kthElementBST.cpp.o
+
+kthElementBST.i: kthElementBST.cpp.i
+.PHONY : kthElementBST.i
+
+# target to preprocess a source file
+kthElementBST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/kthElementBST.cpp.i
+.PHONY : kthElementBST.cpp.i
+
+kthElementBST.s: kthElementBST.cpp.s
+.PHONY : kthElementBST.s
+
+# target to generate assembly for a file
+kthElementBST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/kthElementBST.cpp.s
+.PHONY : kthElementBST.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... TuplesTreeRepresentation.o"
 	@echo "... TuplesTreeRepresentation.i"
 	@echo "... TuplesTreeRepresentation.s"
+	@echo "... kthElementBST.o"
+	@echo "... kthElementBST.i"
+	@echo "... kthElementBST.s"
 .PHONY : help
 
 

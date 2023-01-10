@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/seagel/Desktop/Projects/leetcode/SortedArrayFrequencyCount.cpp
+iostream
+-
+vector
+-
+
+/Users/seagel/Desktop/Projects/leetcode/TuplesTreeRepresentation.cpp
+iostream
+-
+vector
+-
+

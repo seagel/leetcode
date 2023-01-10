@@ -31,7 +31,7 @@ private:
         }else{
             root->right = insertInternal(root->right,val);
         }
-        root->size = root->left->size + root->right->size + 1;
+        root->size = (root->left == nullptr ? 0 : root->left->size) + (root->right == nullptr ? 0 : root->right->size) + 1;
         return root;
     }
     void inorderInternal(Node* root){
@@ -41,6 +41,16 @@ private:
         inorderInternal(root->left);
         cout<<root->val<<" Size:"<<root->size<<endl;
         inorderInternal(root->right);
+    }
+    int solve(Node* root,int k){
+        int leftSize = root->left == nullptr ? 0 : root->left->size;
+//        cout<<leftSize<<endl;
+        if(leftSize >=k){
+            return solve(root->left,k);
+        }else if(leftSize+1 == k){
+            return root->val;
+        }
+        return solve(root->right,k - leftSize - 1);
     }
 public:
     Node* root;
@@ -54,12 +64,20 @@ public:
     void inorder(){
         inorderInternal(root);
     }
+    int kthLargestElement(int k){
+        return solve(root,k);
+    }
 
 };
 int main(){
     Tree bst;
-    bst.insert(2);
+    bst.insert(5);
+    bst.insert(6);
     bst.insert(3);
-    bst.inorder();
+    bst.insert(4);
+    bst.insert(2);
+//    bst.inorder();
+    cout<<bst.kthLargestElement(1)<<endl;
+    cout<<bst.kthLargestElement(4)<<endl;
     return 0;
 }

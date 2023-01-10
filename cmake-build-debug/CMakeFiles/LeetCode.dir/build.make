@@ -66,35 +66,9 @@ include CMakeFiles/LeetCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LeetCode.dir/flags.make
 
-CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o: ../SortedArrayFrequencyCount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o -c /Users/seagel/Desktop/Projects/leetcode/SortedArrayFrequencyCount.cpp
-
-CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seagel/Desktop/Projects/leetcode/SortedArrayFrequencyCount.cpp > CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.i
-
-CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seagel/Desktop/Projects/leetcode/SortedArrayFrequencyCount.cpp -o CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.s
-
-CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o: ../TuplesTreeRepresentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o -c /Users/seagel/Desktop/Projects/leetcode/TuplesTreeRepresentation.cpp
-
-CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seagel/Desktop/Projects/leetcode/TuplesTreeRepresentation.cpp > CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.i
-
-CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seagel/Desktop/Projects/leetcode/TuplesTreeRepresentation.cpp -o CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.s
-
 CMakeFiles/LeetCode.dir/kthElementBST.cpp.o: CMakeFiles/LeetCode.dir/flags.make
 CMakeFiles/LeetCode.dir/kthElementBST.cpp.o: ../kthElementBST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LeetCode.dir/kthElementBST.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/kthElementBST.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/kthElementBST.cpp.o -c /Users/seagel/Desktop/Projects/leetcode/kthElementBST.cpp
 
 CMakeFiles/LeetCode.dir/kthElementBST.cpp.i: cmake_force
@@ -107,19 +81,15 @@ CMakeFiles/LeetCode.dir/kthElementBST.cpp.s: cmake_force
 
 # Object files for target LeetCode
 LeetCode_OBJECTS = \
-"CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o" \
-"CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o" \
 "CMakeFiles/LeetCode.dir/kthElementBST.cpp.o"
 
 # External object files for target LeetCode
 LeetCode_EXTERNAL_OBJECTS =
 
-LeetCode: CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o
-LeetCode: CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/kthElementBST.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/build.make
 LeetCode: CMakeFiles/LeetCode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LeetCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/seagel/Desktop/Projects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeetCode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LeetCode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -129,54 +129,6 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-SortedArrayFrequencyCount.o: SortedArrayFrequencyCount.cpp.o
-.PHONY : SortedArrayFrequencyCount.o
-
-# target to build an object file
-SortedArrayFrequencyCount.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o
-.PHONY : SortedArrayFrequencyCount.cpp.o
-
-SortedArrayFrequencyCount.i: SortedArrayFrequencyCount.cpp.i
-.PHONY : SortedArrayFrequencyCount.i
-
-# target to preprocess a source file
-SortedArrayFrequencyCount.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.i
-.PHONY : SortedArrayFrequencyCount.cpp.i
-
-SortedArrayFrequencyCount.s: SortedArrayFrequencyCount.cpp.s
-.PHONY : SortedArrayFrequencyCount.s
-
-# target to generate assembly for a file
-SortedArrayFrequencyCount.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.s
-.PHONY : SortedArrayFrequencyCount.cpp.s
-
-TuplesTreeRepresentation.o: TuplesTreeRepresentation.cpp.o
-.PHONY : TuplesTreeRepresentation.o
-
-# target to build an object file
-TuplesTreeRepresentation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o
-.PHONY : TuplesTreeRepresentation.cpp.o
-
-TuplesTreeRepresentation.i: TuplesTreeRepresentation.cpp.i
-.PHONY : TuplesTreeRepresentation.i
-
-# target to preprocess a source file
-TuplesTreeRepresentation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.i
-.PHONY : TuplesTreeRepresentation.cpp.i
-
-TuplesTreeRepresentation.s: TuplesTreeRepresentation.cpp.s
-.PHONY : TuplesTreeRepresentation.s
-
-# target to generate assembly for a file
-TuplesTreeRepresentation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.s
-.PHONY : TuplesTreeRepresentation.cpp.s
-
 kthElementBST.o: kthElementBST.cpp.o
 .PHONY : kthElementBST.o
 
@@ -210,12 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... SortedArrayFrequencyCount.o"
-	@echo "... SortedArrayFrequencyCount.i"
-	@echo "... SortedArrayFrequencyCount.s"
-	@echo "... TuplesTreeRepresentation.o"
-	@echo "... TuplesTreeRepresentation.i"
-	@echo "... TuplesTreeRepresentation.s"
 	@echo "... kthElementBST.o"
 	@echo "... kthElementBST.i"
 	@echo "... kthElementBST.s"

@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/SortedArrayFrequencyCount.cpp.o"
-  "CMakeFiles/LeetCode.dir/TuplesTreeRepresentation.cpp.o"
   "CMakeFiles/LeetCode.dir/kthElementBST.cpp.o"
   "LeetCode"
   "LeetCode.pdb"

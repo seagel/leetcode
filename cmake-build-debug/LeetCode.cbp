@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/seagel/Desktop/Projects/leetcode/SortedArrayFrequencyCount.cpp">
-			<Option target="LeetCode"/>
-		</Unit>
-		<Unit filename="/Users/seagel/Desktop/Projects/leetcode/TuplesTreeRepresentation.cpp">
-			<Option target="LeetCode"/>
-		</Unit>
 		<Unit filename="/Users/seagel/Desktop/Projects/leetcode/kthElementBST.cpp">
 			<Option target="LeetCode"/>
 		</Unit>

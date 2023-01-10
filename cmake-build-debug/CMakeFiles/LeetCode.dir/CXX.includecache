@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/seagel/Desktop/Projects/leetcode/SortedArrayFrequencyCount.cpp
+/Users/seagel/Desktop/Projects/leetcode/kthElementBST.cpp
 iostream
--
-vector
--
-
-/Users/seagel/Desktop/Projects/leetcode/TuplesTreeRepresentation.cpp
-iostream
--
-vector
 -
 
